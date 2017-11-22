@@ -25,6 +25,7 @@
     "@ionic-native/splash-screen": "4.4.0",
     "@ionic-native/status-bar": "4.4.0",
     "@ionic/storage": "2.0.1",
+    "@techiediaries/ngx-qrcode": "0.0.5",
     "cordova-android": "6.3.0",
     "cordova-plugin-advanced-http": "^1.8.1",
     "cordova-plugin-console": "^1.1.0",

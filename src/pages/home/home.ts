@@ -12,6 +12,7 @@ import { RegistroPage } from '../registro/registro';
 export class HomePage {
 
   correo:any = "";
+  createdCode:any = "123456789";
 
   constructor(public navCtrl: NavController, public http: HTTP, public toastCtrl: ToastController) {}
 

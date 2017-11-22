@@ -5,6 +5,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 import { HTTP } from '@ionic-native/http';
 
+import { NgxQRCodeModule } from '@techiediaries/ngx-qrcode';
 
 import { MyApp } from './app.component';
 import { InicioPage } from '../pages/inicio/inicio';
@@ -22,6 +23,7 @@ import { RegistroPage } from '../pages/registro/registro';
   ],
   imports: [
     BrowserModule,
+    NgxQRCodeModule,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
